@@ -1,0 +1,156 @@
+{
+  "rondas": {
+    "1": [
+      {
+        "id": "r1-01",
+        "titular": "La NASA confirmó que la sonda Voyager 1 sigue transmitiendo datos desde fuera del sistema solar",
+        "esFalso": false,
+        "explicacion": "Verdadero: la información es verificable en comunicados oficiales de la NASA con fecha y datos técnicos. Señal de confianza: fuente identificable y verificable.",
+        "fuente": "NASA",
+        "fecha": "2024-04-22"
+      },
+      {
+        "id": "r1-02",
+        "titular": "Científicos afirman que tomar agua con limón todos los días reemplaza la vacuna contra la gripe",
+        "esFalso": true,
+        "explicacion": "Falso: no existe ningún estudio científico que lo respalde. Patrón clásico de desinformación en salud: promesa milagrosa + 'científicos' sin nombre ni institución.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-06-03"
+      },
+      {
+        "id": "r1-03",
+        "titular": "Un estudio de la UBA encontró que leer en papel mejora la comprensión lectora frente a leer en pantalla",
+        "esFalso": false,
+        "explicacion": "Verdadero: coincide con investigaciones publicadas sobre lectura profunda en soporte físico, con autores e institución citados.",
+        "fuente": "Universidad de Buenos Aires",
+        "fecha": "2023-11-15"
+      },
+      {
+        "id": "r1-04",
+        "titular": "La Unión Europea prohibirá el café a partir de julio por su impacto ambiental",
+        "esFalso": true,
+        "explicacion": "Falso: no existe ninguna normativa europea al respecto. Señales de alerta: urgencia ('a partir de julio'), ausencia de fuente oficial y tema cotidiano diseñado para compartir por indignación.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-05-10"
+      }
+    ],
+    "2": [
+      {
+        "id": "r2-01",
+        "titular": "La UNESCO declaró patrimonio cultural inmaterial de la humanidad a la ronda de mate",
+        "esFalso": false,
+        "explicacion": "Verdadero: la inscripción fue aprobada en diciembre de 2024 y está documentada en el sitio oficial de la UNESCO.",
+        "fuente": "UNESCO",
+        "fecha": "2024-12-04"
+      },
+      {
+        "id": "r2-02",
+        "titular": "El gobierno lanzó una criptomoneda oficial que duplica tu dinero si cargás tus datos en 48 horas",
+        "esFalso": true,
+        "explicacion": "Falso: esquema típico de estafa financiera viral. Señales de alerta: plazo límite artificial (urgencia), ganancia garantizada imposible y pedido de datos personales.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2025-01-20"
+      },
+      {
+        "id": "r2-03",
+        "titular": "Científicos detectaron por primera vez un 'coro' de ondas gravitacionales que atraviesa toda la galaxia",
+        "esFalso": false,
+        "explicacion": "Verdadero: los pulsares monitorizados por NANOGrav permitieron inferir este fondo de ondas gravitacionales; el resultado fue publicado en revistas científicas con acceso público.",
+        "fuente": "NANOGrav",
+        "fecha": "2023-06-28"
+      },
+      {
+        "id": "r2-04",
+        "titular": "Estudio secreto filtrado confirma que el WiFi provoca insomnio irreversible",
+        "esFalso": true,
+        "explicacion": "Falso: no hay evidencia científica que lo respalde. Señales de alerta: 'estudio secreto filtrado' es una fórmula para evitar verificación; nadie puede citar la fuente porque no existe.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-08-14"
+      },
+      {
+        "id": "r2-05",
+        "titular": "Una app desarrollada en Argentina que traduce lengua de señas en tiempo real ganó un premio internacional de innovación",
+        "esFalso": false,
+        "explicacion": "Verdadero: proyectos argentinos de traducción automática de lengua de señas recibieron reconocimiento internacional y tienen cobertura periodística verificable.",
+        "fuente": "Agencia CyTA - Leloir",
+        "fecha": "2024-03-02"
+      }
+    ],
+    "3": [
+      {
+        "id": "r3-01",
+        "titular": "ChatGPT alcanzó 100 millones de usuarios en dos meses, uno de los productos con adopción más rápida de la historia",
+        "esFalso": false,
+        "explicacion": "Verdadero: el dato fue difundido por la propia OpenAI y confirmado por analistas independientes como UBS.",
+        "fuente": "OpenAI / Reuters",
+        "fecha": "2023-02-01"
+      },
+      {
+        "id": "r3-02",
+        "titular": "Los gobiernos firmaron anoche un acuerdo secreto para prohibir TikTok en todo el mundo",
+        "esFalso": true,
+        "explicacion": "Falso: no existe ningún acuerdo multilateral así. Señales de alerta: anonimato total ('gobiernos', sin cuáles), inmediatez ('anoche') y conspiración sin documentos.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2025-02-11"
+      },
+      {
+        "id": "r3-03",
+        "titular": "Los satélites de la NASA registraron una pérdida récord de hielo marino en la Antártida",
+        "esFalso": false,
+        "explicacion": "Verdadero: las observaciones satelitales del hielo marino antártico son públicas y están documentadas por NSIDC y NASA Earth Observatory.",
+        "fuente": "NASA Earth Observatory",
+        "fecha": "2023-10-09"
+      },
+      {
+        "id": "r3-04",
+        "titular": "Un experimento viral demuestra que los auriculares bluetooth cocinan tu cerebro como un huevo",
+        "esFalso": true,
+        "explicacion": "Falso: la potencia de emisión bluetooth es miles de veces menor que la necesaria para generar calor tisular. El 'experimento' era una obra de teatro satírica mal citada. Señal de alerta: analogía impactante sin medición real.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-09-30"
+      },
+      {
+        "id": "r3-05",
+        "titular": "Un hombre despertó durante su propio velatorio en Córdoba y el hospital se negó a dar explicaciones",
+        "esFalso": true,
+        "explicacion": "Falso: el caso original ocurrió en otro país, fue distinto a lo contado y resurgió reciclado con lugar cambiado. Patrón típico: noticia real descontextualizada y 'localizada' para que suene cercana.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-07-19"
+      },
+      {
+        "id": "r3-06",
+        "titular": "La OMS incluyó formalmente la 'adicción al scroll' en su manual de enfermedades mentales",
+        "esFalso": true,
+        "explicacion": "Falso: la OMS reconoció el 'trastorno por videojuegos' en el CIE-11, pero no existe la categoría 'adicción al scroll'. Señal de alerta: mezcla un dato real parcial con una afirmación inventada.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2025-01-08"
+      },
+      {
+        "id": "r3-07",
+        "titular": "Investigadores lograron que parálisis facial leve recuperara movilidad gracias a implantes neuronales en ensayo clínico",
+        "esFalso": false,
+        "explicacion": "Verdadero: hay ensayos clínicos publicados sobre interfaces cerebrales aplicadas a recuperación motora y facial, con resultados revisados por pares.",
+        "fuente": "Nature Medicine",
+        "fecha": "2024-02-12"
+      },
+      {
+        "id": "r3-08",
+        "titular": "Bióloga confirma en video viral que las antenas 5G son responsables de la mortandad de abejas",
+        "esFalso": true,
+        "explicacion": "Falso: la caída de colmenas tiene causas documentadas (parásitos, pesticidas, cambio climático). Señal de alerta: apelar a una autoridad vaga ('bióloga', sin nombre) frente a consenso científico amplio.",
+        "fuente": "Cuenta viral de TikTok",
+        "fecha": "2024-04-27"
+      }
+    ],
+    "desempate": [
+      {
+        "id": "des-01",
+        "titular": "Encontraron un teléfono celular dentro del estómago de un tiburón y seguía funcionando",
+        "esFalso": false,
+        "explicacion": "¡Verdadero! Un tiburón tigre vomitó un celular junto a otros objetos en la costa de Carolina del Norte, EE.UU., y el dueño pudo recuperar fotos de su boda. Sorpresa: lo increíble a veces es real, por eso siempre hay que verificar antes de sentenciar.",
+        "fuente": "WECT News / National Geographic",
+        "fecha": "2019-06-10"
+      }
+    ]
+  }
+}

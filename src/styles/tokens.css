@@ -1,0 +1,64 @@
+
+:root {
+  /* --- Paleta: TokyoNight --- */
+  --paleta-fondo: #1a1b26;
+  --paleta-fondo-profundo: #16161e;
+  --paleta-superficie: #24283b;
+  --paleta-superficie-alta: #2f334d;
+  --paleta-borde: #343a55;
+  --paleta-texto: #c0caf5;
+  --paleta-texto-suave: #9aa5ce;
+  --paleta-apagado: #565f89;
+  --paleta-acento: #7aa2f7;
+  --paleta-cian: #7dcfff;
+  --paleta-verde: #9ece6a;
+  --paleta-rojo: #f7768e;
+  --paleta-naranja: #ff9e64;
+  --paleta-magenta: #bb9af7;
+
+  /* --- Mapeo semántico (los componentes solo usan estos nombres) --- */
+  --color-fondo: var(--paleta-fondo);
+  --color-fondo-profundo: var(--paleta-fondo-profundo);
+  --color-superficie: var(--paleta-superficie);
+  --color-borde: var(--paleta-borde);
+  --color-texto: var(--paleta-texto);
+  --color-texto-suave: var(--paleta-texto-suave);
+  --color-apagado: var(--paleta-apagado);
+  --color-acento: var(--paleta-acento);
+  --color-cian: var(--paleta-cian);
+  --color-verde: var(--paleta-verde);
+  --color-rojo: var(--paleta-rojo);
+  --color-naranja: var(--paleta-naranja);
+  --color-magenta: var(--paleta-magenta);
+
+  --color-equipo-a: var(--color-acento);
+  --color-equipo-b: var(--color-magenta);
+  --color-exito: var(--color-verde);
+  --color-peligro: var(--color-rojo);
+
+  /* --- Tipografía --- */
+  --fuente-display: "Anton", "Arial Narrow", sans-serif;
+  --fuente-cuerpo: "Instrument Sans", system-ui, sans-serif;
+  --fuente-dato: "JetBrains Mono", "Courier New", monospace;
+
+  /* --- Escala tipográfica (proyector: grande) --- */
+  --texto-xs: clamp(0.72rem, 0.9vw, 0.85rem);
+  --texto-sm: clamp(0.85rem, 1.1vw, 1rem);
+  --texto-md: clamp(1rem, 1.4vw, 1.25rem);
+  --texto-lg: clamp(1.3rem, 2.2vw, 1.9rem);
+  --texto-titular: clamp(1.9rem, 4.6vw, 4rem);
+  --texto-heroe: clamp(3rem, 8vw, 6.5rem);
+
+  /* --- Espaciado y forma --- */
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 1rem;
+  --espacio-4: 1.5rem;
+  --espacio-5: 2.5rem;
+  --espacio-6: 4rem;
+  --radio-tarjeta: 16px;
+  --radio-chip: 999px;
+
+  /* --- Movimiento --- */
+  --transicion: 160ms ease;
+}
