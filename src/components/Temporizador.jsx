@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function Temporizador({ segundosTotales, alFinalizar }) {
+export default function Temporizador({ segundosTotales, alFinalizar, onUrgencia }) {
   const [restante, setRestante] = useState(segundosTotales);
   const finalizoRef = useRef(false);
 
@@ -16,18 +16,23 @@ export default function Temporizador({ segundosTotales, alFinalizar }) {
     return () => clearTimeout(id);
   }, [restante, alFinalizar]);
 
-  const urgente = restante <= 10;
+  const urgente = restante <= 5;
   const progreso = restante / segundosTotales;
+
+  useEffect(()=>{
+    onUrgencia?.(urgente)
+  }, [urgente, onUrgencia]);
 
   return (
     <div className={`temporizador ${urgente ? "temporizador--urgente" : ""}`}>
-      <span className="temporizador__numero" aria-live="off">{restante}s</span>
+      <span className="temporizador__numero" aria-live="off">{restante}</span>
       <div className="temporizador__barra" role="timer" aria-label={`${restante} segundos restantes`}>
         <div
           className="temporizador__llenado"
           style={{ transform: `scaleX(${progreso})`, backgroundColor: urgente ? "var(--color-rojo)" : "var(--color-acento)" }}
         />
       </div>
+      
     </div>
   );
 }

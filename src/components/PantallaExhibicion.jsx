@@ -1,3 +1,4 @@
+import { useCallback, useState } from "react";
 import TarjetaTitular from "./TarjetaTitular";
 import Temporizador from "./Temporizador";
 import { TIEMPO_POR_TITULAR_SEGUNDOS } from "../config";
@@ -5,6 +6,8 @@ import { TIEMPO_POR_TITULAR_SEGUNDOS } from "../config";
 export default function PantallaExhibicion({ estado, avanzarExhibicion }) {
   const { titularesRonda, indiceExhibicion, rondaActual } = estado;
   const noticia = titularesRonda[indiceExhibicion];
+  const [urgente, setUrgente] = useState(false);
+  const manejarUrgencia = useCallback((v)=> setUrgente(v), []);
 
   return (
     <main className="exhibicion">
@@ -15,9 +18,10 @@ export default function PantallaExhibicion({ estado, avanzarExhibicion }) {
           key={`${rondaActual}-${indiceExhibicion}`}
           segundosTotales={TIEMPO_POR_TITULAR_SEGUNDOS}
           alFinalizar={avanzarExhibicion}
+          onUrgencia={manejarUrgencia}
         />
       
-      <TarjetaTitular key={noticia.id + "-" + indiceExhibicion} noticia={noticia} />
+      <TarjetaTitular key={noticia.id + "-" + indiceExhibicion} noticia={noticia} urgente={urgente} />
 
       <div className="exhibicion__pie">
         <div className="exhibicion__puntos">

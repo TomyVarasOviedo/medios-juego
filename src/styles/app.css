@@ -47,7 +47,7 @@ main {
   padding: calc(var(--espacio-5)*0.45) var(--espacio-4) calc(var(--espacio-5) + 72px);
   display: flex;
   flex-direction: column;
-  gap: var(--espacio-6);
+  gap: var(--espacio-4);
 }
 
 /* ============ Botones ============ */
@@ -249,7 +249,23 @@ main {
   flex-direction: column;
   gap: var(--espacio-3);
 }
-
+.tarjeta--urgente{
+  box-shadow: 0 0 20px 4px var(--color-rojo);
+  border-color: var(--color-rojo);
+  transition: 0.6s ease-in all;
+  animation: pulso-urgente 0.8s ease-in-out infinite;
+}
+@keyframes pulso-urgente {
+  0%{
+    box-shadow: 0 0 0px 0px var(--color-rojo);
+  }
+  50%{
+    box-shadow: 0 0 10px 4px var(--color-rojo);
+  }
+  100%{
+    box-shadow: 0 0 0px 0px var(--color-rojo);
+  }
+}
 .tarjeta__cabecera {
   display: flex;
   align-items: center;
@@ -293,6 +309,10 @@ main {
   line-height: 1.08;
   text-wrap: balance;
   color: var(--color-texto);
+}
+.tarjeta-titular--urgente{
+   color: #f5c7c7;
+   transition: 1s ease  color;
 }
 
 .exhibicion .tarjeta__titular {
@@ -343,10 +363,11 @@ main {
 }
 
 .temporizador {
-  display: flex;
+  display: block;
+  text-align: center;
   align-items: center;
   gap: var(--espacio-3);
-  width: min(520px, 100%);
+  width: max(95%) min(520px, 100%);
 }
 
 .temporizador__numero {
@@ -375,6 +396,7 @@ main {
   height: 100%;
   transform-origin: left;
   border-radius: inherit;
+  transition: 0.5s ease-in-out all;
 }
 
 @keyframes pulso {
