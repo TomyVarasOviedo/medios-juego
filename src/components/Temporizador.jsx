@@ -16,7 +16,7 @@ export default function Temporizador({ segundosTotales, alFinalizar, onUrgencia 
     return () => clearTimeout(id);
   }, [restante, alFinalizar]);
 
-  const urgente = restante <= 5;
+  const urgente = restante <= 3;
   const progreso = restante / segundosTotales;
 
   useEffect(()=>{

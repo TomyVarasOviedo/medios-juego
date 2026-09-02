@@ -11,27 +11,27 @@
       },
       {
         "id": "r1-02",
-        "titular": "Científicos afirman que tomar agua con limón todos los días reemplaza la vacuna contra la gripe",
-        "esFalso": true,
-        "explicacion": "Falso: no existe ningún estudio científico que lo respalde. Patrón clásico de desinformación en salud: promesa milagrosa + 'científicos' sin nombre ni institución.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2024-06-03"
+        "titular": "Una enorme cantidad de personas adultas en EEUU cree que la leche de chocolate viene de las vacas marrones",
+        "esFalso": false,
+        "explicacion": "Verdadero: En verdad sea una encuesta por USDA y solo el 7% de los adultos estadounidenses cree que la leche de chocolate proviene de vacas marrones.",
+        "fuente": "Undeniably Dairy",
+        "fecha": "2017-03-01"
       },
       {
         "id": "r1-03",
-        "titular": "Un estudio de la UBA encontró que leer en papel mejora la comprensión lectora frente a leer en pantalla",
-        "esFalso": false,
-        "explicacion": "Verdadero: coincide con investigaciones publicadas sobre lectura profunda en soporte físico, con autores e institución citados.",
-        "fuente": "Universidad de Buenos Aires",
-        "fecha": "2023-11-15"
+        "titular": "Una abuela se disfraza de Baby Yoda para que sus nietos vayan a verla",
+        "esFalso": true,
+        "explicacion": "Falso: No existe el caso",
+        "fuente": "El Mundo Today",
+        "fecha": "2026-08-18"
       },
       {
         "id": "r1-04",
-        "titular": "La Unión Europea prohibirá el café a partir de julio por su impacto ambiental",
+        "titular": "El Servicio Secreto insta a Trump a no utilizar el Jet Pack de Qatar por motivos de seguridad",
         "esFalso": true,
-        "explicacion": "Falso: no existe ninguna normativa europea al respecto. Señales de alerta: urgencia ('a partir de julio'), ausencia de fuente oficial y tema cotidiano diseñado para compartir por indignación.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2024-05-10"
+        "explicacion": "Falso: Es una noticia de broma",
+        "fuente": "The Onion",
+        "fecha": "2026-07-10"
       }
     ],
     "2": [
@@ -45,35 +45,35 @@
       },
       {
         "id": "r2-02",
-        "titular": "El gobierno lanzó una criptomoneda oficial que duplica tu dinero si cargás tus datos en 48 horas",
+        "titular": "Carrefour comienza a cobrar a sus clientes como multa por no devolverlo el carrito al establecimiento tras usarlo",
         "esFalso": true,
-        "explicacion": "Falso: esquema típico de estafa financiera viral. Señales de alerta: plazo límite artificial (urgencia), ganancia garantizada imposible y pedido de datos personales.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2025-01-20"
+        "explicacion": "Falso: Es una noticia satírica inventada.",
+        "fuente": "Diario %DIA",
+        "fecha": "2026-06-11"
       },
       {
         "id": "r2-03",
-        "titular": "Científicos detectaron por primera vez un 'coro' de ondas gravitacionales que atraviesa toda la galaxia",
+        "titular": "Una biblioteca argentina registra un aumento de préstamos de libros después de que varios usuarios los descubrieran por vídeos de TikTok",
         "esFalso": false,
-        "explicacion": "Verdadero: los pulsares monitorizados por NANOGrav permitieron inferir este fondo de ondas gravitacionales; el resultado fue publicado en revistas científicas con acceso público.",
-        "fuente": "NANOGrav",
-        "fecha": "2023-06-28"
+        "explicacion": "Verdadero: Las redes sociales han impulsado el interés por determinados libros y han generado tendencias de lectura entre jóvenes argentinos.",
+        "fuente": "Clarín",
+        "fecha": "2026-06-14"
       },
       {
         "id": "r2-04",
-        "titular": "Estudio secreto filtrado confirma que el WiFi provoca insomnio irreversible",
+        "titular": "OpenAI ha incorporado una nueva función para ahorrar recursos cuando sus usuarios las usan como terapias de pareja",
         "esFalso": true,
-        "explicacion": "Falso: no hay evidencia científica que lo respalde. Señales de alerta: 'estudio secreto filtrado' es una fórmula para evitar verificación; nadie puede citar la fuente porque no existe.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2024-08-14"
+        "explicacion": "Falso: Es una noticia satírica inventada para el juego.",
+        "fuente": "Linus Tech Tips (Youtuber)",
+        "fecha": "2026-07-27"
       },
       {
         "id": "r2-05",
-        "titular": "Una app desarrollada en Argentina que traduce lengua de señas en tiempo real ganó un premio internacional de innovación",
+        "titular": "Un hombre instala un spa de 28.000 libras para que su perro pueda relajarse después de sus paseos",
         "esFalso": false,
-        "explicacion": "Verdadero: proyectos argentinos de traducción automática de lengua de señas recibieron reconocimiento internacional y tienen cobertura periodística verificable.",
-        "fuente": "Agencia CyTA - Leloir",
-        "fecha": "2024-03-02"
+        "explicacion": "Verdadero: Un reportaje recoge el caso de personas que han llegado a gastar 28.000 libras en instalaciones de spa para sus perros.",
+        "fuente": "The Guardian",
+        "fecha": "2026-07-20"
       }
     ],
     "3": [
@@ -87,10 +87,10 @@
       },
       {
         "id": "r3-02",
-        "titular": "Los gobiernos firmaron anoche un acuerdo secreto para prohibir TikTok en todo el mundo",
+        "titular": "La municipalidad de Sapo quemado ha construido una estatua en honor a 'Ramchito' el gran payador de la sierra",
         "esFalso": true,
-        "explicacion": "Falso: no existe ningún acuerdo multilateral así. Señales de alerta: anonimato total ('gobiernos', sin cuáles), inmediatez ('anoche') y conspiración sin documentos.",
-        "fuente": "Cuenta viral de TikTok",
+        "explicacion": "Falso: Es una noticia de broma",
+        "fuente": "Diario El viento correntino del oeste",
         "fecha": "2025-02-11"
       },
       {
@@ -103,43 +103,43 @@
       },
       {
         "id": "r3-04",
-        "titular": "Un experimento viral demuestra que los auriculares bluetooth cocinan tu cerebro como un huevo",
+        "titular": "Un cura de la localidad de Londrés (Salta) ha sido acusado de colocar internet en la parroquia para el diesmo por transferencia",
         "esFalso": true,
-        "explicacion": "Falso: la potencia de emisión bluetooth es miles de veces menor que la necesaria para generar calor tisular. El 'experimento' era una obra de teatro satírica mal citada. Señal de alerta: analogía impactante sin medición real.",
-        "fuente": "Cuenta viral de TikTok",
+        "explicacion": "Falso: Es una noticia de broma",
+        "fuente": "Maria Soledad (Facebook)",
         "fecha": "2024-09-30"
       },
       {
         "id": "r3-05",
-        "titular": "Un hombre despertó durante su propio velatorio en Córdoba y el hospital se negó a dar explicaciones",
+        "titular": "Vecinos del Las Toninas crean un grupo de WhatsApp para avisar cuando hay un lugar libre para estacionar cuando es temporada alta",
         "esFalso": true,
-        "explicacion": "Falso: el caso original ocurrió en otro país, fue distinto a lo contado y resurgió reciclado con lugar cambiado. Patrón típico: noticia real descontextualizada y 'localizada' para que suene cercana.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2024-07-19"
+        "explicacion": "Falso: Es una noticia humorística inventada.",
+        "fuente": "Diario Opion La Costa (Facebook)",
+        "fecha": "2013-08-19"
       },
       {
         "id": "r3-06",
-        "titular": "La OMS incluyó formalmente la 'adicción al scroll' en su manual de enfermedades mentales",
+        "titular": "Un criador de ovejas de Azul asegura que una de sus ovejas aprendió a reconocer el sonido de la camioneta que trae alimento",
         "esFalso": true,
-        "explicacion": "Falso: la OMS reconoció el 'trastorno por videojuegos' en el CIE-11, pero no existe la categoría 'adicción al scroll'. Señal de alerta: mezcla un dato real parcial con una afirmación inventada.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2025-01-08"
+        "explicacion": "Falso: Es una noticia humorística inventada, aunque el comportamiento descrito resulta plausible.",
+        "fuente": "La Nación Campo",
+        "fecha": "2026-06-14"
       },
       {
         "id": "r3-07",
-        "titular": "Investigadores lograron que parálisis facial leve recuperara movilidad gracias a implantes neuronales en ensayo clínico",
+        "titular": "Unos delicuentes se fugaron la comisaría de Santa Teresita aprovechando el partido de Argentina en el Mundial",
         "esFalso": false,
-        "explicacion": "Verdadero: hay ensayos clínicos publicados sobre interfaces cerebrales aplicadas a recuperación motora y facial, con resultados revisados por pares.",
-        "fuente": "Nature Medicine",
-        "fecha": "2024-02-12"
+        "explicacion": "Verdadero: Lamentablemente",
+        "fuente": "Radio Popular San Luis",
+        "fecha": "2026-06-18"
       },
       {
         "id": "r3-08",
-        "titular": "Bióloga confirma en video viral que las antenas 5G son responsables de la mortandad de abejas",
+        "titular": "Un almacén de General Rodríguez incorpora una segunda heladera después de que los clientes confundieran durante años las bebidas frías con las que estaban a temperatura ambiente",
         "esFalso": true,
-        "explicacion": "Falso: la caída de colmenas tiene causas documentadas (parásitos, pesticidas, cambio climático). Señal de alerta: apelar a una autoridad vaga ('bióloga', sin nombre) frente a consenso científico amplio.",
-        "fuente": "Cuenta viral de TikTok",
-        "fecha": "2024-04-27"
+        "explicacion": "Falso: Es una noticia humorística inventada.",
+        "fuente": "El zanjon de General Rodríguez",
+        "fecha": "2026-07-11"
       }
     ],
     "desempate": [

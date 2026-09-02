@@ -1,4 +1,4 @@
-export const TIEMPO_POR_TITULAR_SEGUNDOS = 20;
+export const TIEMPO_POR_TITULAR_SEGUNDOS = 10;
 
 export const PUNTOS_POR_RONDA = { 1: 1, 2: 2, 3: 3 };
 
