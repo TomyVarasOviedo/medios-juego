@@ -239,6 +239,77 @@ main {
   color: var(--color-texto-suave);
 }
 
+.inicio__tutorial {
+  align-self: center;
+}
+
+/* ============ Modal tutoría ============ */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: color-mix(in srgb, var(--color-fondo-profundo) 78%, transparent);
+  backdrop-filter: blur(4px);
+  display: grid;
+  place-items: center;
+  z-index: 40;
+  padding: var(--espacio-4);
+}
+
+.modal {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-tarjeta);
+  max-width: 1020px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: var(--espacio-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-3);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal__encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-3);
+}
+
+.modal__titulo {
+  font-family: var(--fuente-display);
+  font-size: var(--texto-lg);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--color-texto);
+}
+
+.modal__cerrar {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-borde);
+  background: var(--color-fondo-profundo);
+  color: var(--color-apagado);
+  font-size: var(--texto-md);
+  line-height: 1;
+  transition: color var(--transicion), border-color var(--transicion);
+}
+
+.modal__cerrar:hover {
+  color: var(--color-texto);
+  border-color: var(--color-apagado);
+}
+
+.modal__explicacion {
+  margin-top: var(--espacio-2);
+  color: var(--color-texto-suave);
+  font-size: var(--texto-md);
+}
+
+
 /* ============ Tarjeta titular (post proyectado) ============ */
 .tarjeta {
   background: var(--color-superficie);
@@ -313,6 +384,7 @@ main {
 .tarjeta-titular--urgente{
    color: #f5c7c7;
    transition: 1s ease  color;
+   animation: pulso 2s infinite;
 }
 
 .exhibicion .tarjeta__titular {
