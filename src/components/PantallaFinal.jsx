@@ -1,5 +1,12 @@
+import Confetti from "./confetti";
+import { useEffect } from "react";
+
 export default function PantallaFinal({ estado, jugarDeNuevo }) {
   const { nombres, puntos } = estado;
+  const hayGanador = puntos.A !== puntos.B;
+  useEffect(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "auto"});
+  }, []);
 
   let mensaje;
   if (puntos.A === puntos.B) {
@@ -13,6 +20,7 @@ export default function PantallaFinal({ estado, jugarDeNuevo }) {
 
   return (
     <main className="final">
+      <Confetti activo={hayGanador} />
       <p className="eyebrow">Resultado final</p>
       <h2 className="final__titulo">{mensaje}</h2>
 
