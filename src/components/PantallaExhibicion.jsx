@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useCallback, useState, useEffect } from "react";
 import TarjetaTitular from "./TarjetaTitular";
 import Temporizador from "./Temporizador";
 import { TIEMPO_POR_TITULAR_SEGUNDOS } from "../config";
@@ -8,6 +8,9 @@ export default function PantallaExhibicion({ estado, avanzarExhibicion }) {
   const noticia = titularesRonda[indiceExhibicion];
   const [urgente, setUrgente] = useState(false);
   const manejarUrgencia = useCallback((v)=> setUrgente(v), []);
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto"});
+  }, [indiceExhibicion, rondaActual]);
 
   return (
     <main className="exhibicion">
