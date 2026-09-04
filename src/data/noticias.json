@@ -3,11 +3,11 @@
     "1": [
       {
         "id": "r1-01",
-        "titular": "La NASA confirmó que la sonda Voyager 1 sigue transmitiendo datos desde fuera del sistema solar",
+        "titular": "La agencia de seguridad TSA de EEUU pide a los pasajeros que dejen de esconder tortugas debajo de la ropa para subir a los aviones",
         "esFalso": false,
-        "explicacion": "Verdadero: la información es verificable en comunicados oficiales de la NASA con fecha y datos técnicos. Señal de confianza: fuente identificable y verificable.",
-        "fuente": "NASA",
-        "fecha": "2024-04-22"
+        "explicacion": "Verdadero: Corresponde a una declaracion de TSA",
+        "fuente": "The Guardian",
+        "fecha": "2026-01-06"
       },
       {
         "id": "r1-02",
@@ -32,6 +32,38 @@
         "explicacion": "Falso: Es una noticia de broma",
         "fuente": "The Onion",
         "fecha": "2026-07-10"
+      },
+      {
+        "id": "r1-05",
+        "titular": "Investigadores pintan vacas como cebras para comprobar si así consiguen que las moscas las piquen menos",
+        "esFalso": false,
+        "explicacion": "Verdadero: Investigadores japoneses pintaron vacas con rayas similares a las de las cebras y estudiaron si el patrón reducía las picaduras de moscas.",
+        "fuente": "ScienceAlert",
+        "fecha": "2025-09-18"
+      },
+      {
+        "id": "r1-06",
+        "titular": "Robó un colectivo en Merlo, subió pasajeros como si fuera el chofer y terminó detenido en Morón",
+        "esFalso": false,
+        "explicacion": "Verdadero: Un hombre robó un colectivo en Merlo y continuó el recorrido llevando pasajeros hasta que fue detenido en Morón. Al ser interrogado aseguró que quería cumplir el sueño de manejar un colectivo.",
+        "fuente": "Infobae",
+        "fecha": "2026-08-24"
+      },
+      {
+        "id": "r1-07",
+        "titular": "Detuvieron a un vendedor de Flores que aseguraba haber diseñado un plan perfecto para robar una joyería, aunque todavía no había decidido cómo entrar",
+        "esFalso": true,
+        "explicacion": "Falso: Es una reinterpretación humorística del universo de Roberto Arlt, especialmente de El juguete rabioso y sus personajes obsesionados con escapar de su situación mediante planes extremos.",
+        "fuente": "La gaceta de Arlt",
+        "fecha": "2026-06-27"
+      },
+      {
+        "id": "r1-08",
+        "titular": "Un hombre de acento raro y muy demacrado relata haber visto un fantasma en un manicomio que asegura era su amante jugando a la rayuela",
+        "esFalso": true,
+        "explicacion": "Falso: Es una noticia humorística inventada.",
+        "fuente": "Revista La Maga",
+        "fecha": "2026-07-15"
       }
     ],
     "2": [
@@ -45,7 +77,7 @@
       },
       {
         "id": "r2-02",
-        "titular": "Carrefour comienza a cobrar a sus clientes como multa por no devolverlo el carrito al establecimiento tras usarlo",
+        "titular": "Una cadena de supermercados muy conocida comienza a cobrar a sus clientes como multa por no devolverlo el carrito al establecimiento tras usarlo",
         "esFalso": true,
         "explicacion": "Falso: Es una noticia satírica inventada.",
         "fuente": "Diario %DIA",
@@ -61,7 +93,7 @@
       },
       {
         "id": "r2-04",
-        "titular": "OpenAI ha incorporado una nueva función para ahorrar recursos cuando sus usuarios las usan como terapias de pareja",
+        "titular": "OpenAI piensa incorporar una nueva función para ahorrar recursos cuando sus usuarios las usan como terapias de pareja",
         "esFalso": true,
         "explicacion": "Falso: Es una noticia satírica inventada para el juego.",
         "fuente": "Linus Tech Tips (Youtuber)",
@@ -74,6 +106,38 @@
         "explicacion": "Verdadero: Un reportaje recoge el caso de personas que han llegado a gastar 28.000 libras en instalaciones de spa para sus perros.",
         "fuente": "The Guardian",
         "fecha": "2026-07-20"
+      },
+      {
+        "id": "r2-06",
+        "titular": "Vecinos de Temperley atraparon a un ladrón mientras se encontraban reunidos para reclamar mayor seguridad",
+        "esFalso": false,
+        "explicacion": "Verdadero: Vecinos del barrio San José de Temperley capturaron a un sospechoso de robo mientras se preparaban para participar de una marcha por un caso de inseguridad ocurrido en la zona.",
+        "fuente": "Infobae",
+        "fecha": "2026-04-29"
+      },
+      {
+        "id": "r2-07",
+        "titular": "Un estudio investiga qué tipos de pizza prefieren comer los lagartos",
+        "esFalso": false,
+        "explicacion": "Verdadero: Investigadores estudiaron las preferencias alimentarias de lagartos respecto de distintos tipos de pizza y el trabajo recibió un premio Ig Nobel.",
+        "fuente": "AP News",
+        "fecha": "2025-09-19"
+      },
+      {
+        "id": "r2-08",
+        "titular": "Un cura de la localidad de Londrés (Salta) ha sido acusado de colocar internet en la parroquia para el diesmo por transferencia",
+        "esFalso": true,
+        "explicacion": "Falso: Es una noticia de broma",
+        "fuente": "Maria Soledad (Facebook)",
+        "fecha": "2024-09-30"
+      },
+      {
+        "id": "r3-09",
+        "titular": "Un almacén de General Rodríguez incorpora una segunda heladera después de que los clientes confundieran durante años las bebidas frías con las que estaban a temperatura ambiente",
+        "esFalso": true,
+        "explicacion": "Falso: Es una noticia humorística inventada.",
+        "fuente": "El zanjon de General Rodríguez",
+        "fecha": "2026-07-11"
       }
     ],
     "3": [
@@ -95,30 +159,22 @@
       },
       {
         "id": "r3-03",
-        "titular": "Los satélites de la NASA registraron una pérdida récord de hielo marino en la Antártida",
+        "titular": "Un búfalo albino de 700 kilos llamado Donald Trump consigue evitar ser sacrificado después de convertirse en una atracción turística",
         "esFalso": false,
-        "explicacion": "Verdadero: las observaciones satelitales del hielo marino antártico son públicas y están documentadas por NSIDC y NASA Earth Observatory.",
-        "fuente": "NASA Earth Observatory",
-        "fecha": "2023-10-09"
+        "explicacion": "Verdadero: Es un bufalo alvino de Bangladesh",
+        "fuente": "La Nación",
+        "fecha": "2026-05-23"
       },
       {
         "id": "r3-04",
-        "titular": "Un cura de la localidad de Londrés (Salta) ha sido acusado de colocar internet en la parroquia para el diesmo por transferencia",
-        "esFalso": true,
-        "explicacion": "Falso: Es una noticia de broma",
-        "fuente": "Maria Soledad (Facebook)",
-        "fecha": "2024-09-30"
-      },
-      {
-        "id": "r3-05",
-        "titular": "Vecinos del Las Toninas crean un grupo de WhatsApp para avisar cuando hay un lugar libre para estacionar cuando es temporada alta",
+        "titular": "Vecinos de Las Toninas crean un grupo de WhatsApp para avisar cuando hay un lugar libre para estacionar cuando es temporada alta",
         "esFalso": true,
         "explicacion": "Falso: Es una noticia humorística inventada.",
         "fuente": "Diario Opion La Costa (Facebook)",
         "fecha": "2013-08-19"
       },
       {
-        "id": "r3-06",
+        "id": "r3-05",
         "titular": "Un criador de ovejas de Azul asegura que una de sus ovejas aprendió a reconocer el sonido de la camioneta que trae alimento",
         "esFalso": true,
         "explicacion": "Falso: Es una noticia humorística inventada, aunque el comportamiento descrito resulta plausible.",
@@ -126,20 +182,12 @@
         "fecha": "2026-06-14"
       },
       {
-        "id": "r3-07",
+        "id": "r3-06",
         "titular": "Unos delicuentes se fugaron la comisaría de Santa Teresita aprovechando el partido de Argentina en el Mundial",
         "esFalso": false,
         "explicacion": "Verdadero: Lamentablemente",
         "fuente": "Radio Popular San Luis",
         "fecha": "2026-06-18"
-      },
-      {
-        "id": "r3-08",
-        "titular": "Un almacén de General Rodríguez incorpora una segunda heladera después de que los clientes confundieran durante años las bebidas frías con las que estaban a temperatura ambiente",
-        "esFalso": true,
-        "explicacion": "Falso: Es una noticia humorística inventada.",
-        "fuente": "El zanjon de General Rodríguez",
-        "fecha": "2026-07-11"
       }
     ],
     "desempate": [
@@ -150,7 +198,15 @@
         "explicacion": "¡Verdadero! Un tiburón tigre vomitó un celular junto a otros objetos en la costa de Carolina del Norte, EE.UU., y el dueño pudo recuperar fotos de su boda. Sorpresa: lo increíble a veces es real, por eso siempre hay que verificar antes de sentenciar.",
         "fuente": "WECT News / National Geographic",
         "fecha": "2019-06-10"
-      }
+      },
+      {
+        "id": "des-02",
+        "titular": "Una investigación concluye que algunos mosquitos pueden aprender a asociar el repelente con la posibilidad de conseguir sangre",
+        "esFalso": false,
+        "explicacion": "Verdadero: Investigadores encontraron indicios de que los mosquitos pueden aprender a asociar el DEET con experiencias relacionadas con la alimentación.",
+        "fuente": "The Guardian",
+        "fecha": "2026-05-28"
+      } 
     ]
   }
 }
