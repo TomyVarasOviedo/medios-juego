@@ -32,8 +32,8 @@ export default function PantallaRevelacion({ estado, siguienteRonda }) {
                 <span className={`sello ${noticia.esFalso ? "sello--falso" : "sello--real"}`}>
                   {noticia.esFalso ? "✗ FALSO" : "✓ REAL"}
                 </span>
-                <VeredictoEquipo nombre={nombres.A} equipo="A" noticia={noticia} selecciones={selecciones} />
-                <VeredictoEquipo nombre={nombres.B} equipo="B" noticia={noticia} selecciones={selecciones} />
+                {/* <VeredictoEquipo nombre={nombres.A} equipo="A" noticia={noticia} selecciones={selecciones} /> */}
+                {/* <VeredictoEquipo nombre={nombres.B} equipo="B" noticia={noticia} selecciones={selecciones} /> */}
               </footer>
             }
           />
