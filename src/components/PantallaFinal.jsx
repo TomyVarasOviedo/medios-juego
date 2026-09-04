@@ -13,7 +13,7 @@ export default function PantallaFinal({ estado, jugarDeNuevo }) {
     mensaje = "¡Empate! Hace falta una ronda de desempate.";
   } else {
     const ganador = puntos.A > puntos.B ? nombres.A : nombres.B;
-    mensaje = `${ganador} detectó más bulos.`;
+    mensaje = `${ganador} detectó más falsas.`;
   }
   const ganadorA = puntos.A >= puntos.B;
   const ganadorB = puntos.B >= puntos.A;
